@@ -42,10 +42,9 @@ local Window = Rayfield:CreateWindow({
  local TabCre= Window:CreateTab("Credits", 4483362458)
 
  local Button = Tab:CreateButton({
-	Name = "inf wins",
+	Name = "auto parry (beta)",
 	Callback = function()
-	
-	end,
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kauepsantos/blade_ball/refs/heads/main/README.md"))()
  })
 
  local Label = TabCre:CreateLabel("credits")
